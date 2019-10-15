@@ -1,0 +1,155 @@
+#competition-container{
+    display: flex;
+}
+
+
+.background{
+    background-color: rgb(59, 58, 58);
+    height: 1000px;
+    width: 100%;
+}
+
+#trophee-competition{
+    font-size: 120px;
+    position: relative;
+    left: 750px;
+    top: 100px;
+    /* align-items: center; */
+}
+
+#there-is-a-contest-coming-in{
+    border: solid rgb(254,236,90) 2px;
+    opacity: 100;
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    background-color:rgb(254,236,90);
+    top: 500px;
+    left: 1200px;
+}
+
+#there-is-a-contest-coming-in:hover{
+    border: solid rgb(254,236,90) 2px;
+    opacity: 100;
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    background-color:rgb(254,236,90);
+    top: 500px;
+    left: 1200px;
+    cursor: pointer;
+}
+
+#there-is-a-contest-coming-in:focus{
+    outline: none;
+
+}
+
+#there-is-a-contest-coming-in:active{
+    margin: 1px 1px 0;
+    box-shadow: -1px -1px 1px #000;
+}
+
+#time-countdown{
+    display: inline-block;
+}
+
+#join-competition{
+    font-family: Fira Code;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#contest-number{
+    font-family: Fira Code;
+    font-size: 17px;
+}
+
+#starts-in{
+    margin-top: 10px;
+    font-family: Fira Code;
+}
+
+#clock{
+    position: relative;
+    top: 8px;
+    right: 8px;
+}
+
+#coderank-contest{
+    font-family: Fira Code;
+    color: white;
+    margin-top: 170px;
+    margin-left: 690px;
+    font-size: 25px;
+}
+
+#compete-and-see-your-ranking{
+    font-family: Fira Code;
+    color: white;
+    margin-top: 50px;
+    margin-left: 650px;
+    font-size: 20px;
+}
+
+#global-ranking{
+    font-family: Fira Code;
+    color: white;
+    margin-top: 100px;
+    margin-left: 600px;
+    font-size: 15px;
+}
+
+#ranked-first{
+    font-size: 40px;
+    margin-left: 800px;
+    margin-top: 60px;
+}
+
+#username-1{
+    font-family: Fira Code;
+    color: white;
+    position: relative;
+    left: 777px;
+    top: 40px;
+}
+
+#username-2{
+    font-family: Fira Code;
+    color: white;
+    position: relative;
+    left: 730px;
+    top: 40px;
+}
+
+#username-3{
+    font-family: Fira Code;
+    color: white;
+    position: relative;
+    left: 855px;
+    bottom: 76px;
+}
+
+#second-line-ranking{
+    display: inline-block;
+}
+
+#ranked-second{
+    margin-top: 50px;
+    float: left;
+    font-size: 35px;
+    margin-right: 80px;
+    margin-left: 755px;
+}
+
+#ranked-third{
+    margin-top: 50px;
+    float: right;
+    font-size: 35px;
+}
+
+
+

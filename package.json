@@ -1,0 +1,54 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "twitter practice",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server:debug": "nodemon --inspect app.js",
+    "server": "nodemon app.js",
+    "frontend-install": "npm install --prefix frontend",
+    "frontend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "lina",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "canvasjs": "^1.8.1",
+    "codemirror": "^5.49.0",
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
+    "jasmine": "^3.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1",
+    "ot": "git://github.com/Operational-Transformation/ot.js.git",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "pusher": "^3.0.0",
+    "pusher-js": "^5.0.2",
+    "react": "^16.10.1",
+    "react-canvas-js": "^1.0.1",
+    "react-codemirror2": "^6.0.0",
+    "react-rotating-text": "^1.4.1",
+    "react-typing-animation": "^1.6.2",
+    "socket.io": "^2.3.0",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linakherchi/CodeRank.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linakherchi/CodeRank/issues"
+  },
+  "homepage": "https://github.com/linakherchi/CodeRank#readme"
+}

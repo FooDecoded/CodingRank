@@ -1,0 +1,104 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Fira Code';
+	font: inherit;
+}
+
+
+ html {
+	width: 100vw;
+	height: 100vh;
+}
+
+/* body{
+	 background-color: rgb(189, 189, 189);
+
+} */
+
+.main-content {
+    display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+}
+
+
+/* CSS Related to editor */
+.CodeMirror{
+	margin: 0;
+    position: absolute;
+    top: 185px;
+    bottom: 100px;
+    left: 460px;
+    right: 400px;
+    /* box-shadow: 2px 2px #333232; */
+	height: 500px;
+	z-index: 3;
+	border-radius: 20px;
+}
+
+.board-button{
+	padding-left: 150px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+body{
+	position: fixed;
+	width: 100%;
+}
+
+
+#canvas:hover{
+	cursor: pointer;
+}
+
+#canvas{
+	background-color: rgb(240, 235, 235);
+}
+video{
+width: 400px;
+/* height: 600px; */
+padding-left: 59%;
+}
+
+#editor-shared{
+	margin-left: 200px;
+}
+
+.editor-video-cont{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+	z-index: 15;
+}
+
+.room-info{
+	font-size: 20px;
+	color: rgb(241, 238, 238);
+	font-family: sans-serif, cursive;
+}
+
+.room-info p {
+	width: 300px;
+}

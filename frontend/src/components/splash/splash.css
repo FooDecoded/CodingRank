@@ -1,0 +1,109 @@
+
+/* 
+.splash-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(59, 58, 58);
+    padding: 60px 0 0 0;
+    height: 600px;
+    font-family: "Fira Code";
+} */
+
+/* .splash-hero-message{
+    /* background-color: white; 
+    position: absolute;
+    color: black;
+    font-size: 2.25rem;
+    font-size: 2.304vw;
+    line-height: 1.75;
+    margin: 0;
+    text-transform: none;
+    font-weight: 100;
+    /* width: 100%; 
+    padding-left: 50px;
+    /* bottom: 240px; 
+    top: 0;
+    /* z-index: 1300; 
+} 
+ 
+ /* #splash-hero-h1{
+  position: absolute;
+  font-size: 35px;
+  font-family: Fira Code;
+  width: 700px;
+  color: black;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  /* font-weight: bold; */
+  /* bottom: 420px;
+  z-index: 3;
+  color: white;
+  left: 100px;
+
+}  */ 
+
+
+
+/* .coderank-team-links {
+    position: static;
+    width: auto;
+    z-index: initial;
+    display: inline-block;
+    margin: 10px 0;
+} */ 
+
+
+.splash{
+    /* flex: 1; */
+    /* flex-direction: row; */
+    width: 100%;
+    height: 100%
+}
+
+#background-image{
+    height: 102%;
+    width: 100%;
+    position: relative
+}
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#react{
+  color: white;
+  position: absolute;
+  bottom: 450px;
+  font-family: "Fira Code";
+  left: 50px;
+  font-size: 30px;
+  width: 500px;
+  line-height: 50px;
+}
+
+.session-form-hidden{
+  display: none;
+}
+
+
+
+
+

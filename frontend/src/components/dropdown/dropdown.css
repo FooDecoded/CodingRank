@@ -1,0 +1,79 @@
+.dropdown {
+     position: absolute;
+     display: inline-block;
+     bottom: 860px;
+     z-index: 4;
+     left: 1500px;
+     
+}
+#below-dropdown {
+     list-style-type: none;
+     /* margin: 5; */
+     /* padding: 0; */
+     top:50px;
+     right:-40px;
+     width: 130px;
+     /* background-color: white; */
+     background-color: rgb(211, 211, 211);
+     font-weight:bold;
+     position: absolute;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+     border-radius: 6px;
+}
+
+
+
+
+
+ /* li:hover {
+     background-color: #e5e5e5;
+     color: white;
+} */
+ .button{
+     width:20px;
+     height:18px;
+     /* background-color:#ff3232 ; */
+     padding:12px;
+     border-radius:5px;
+     font-weight:bold;
+     color:white;
+     /* position: absolute; */
+     top: 50px;
+     /* right: 70px; */
+}
+
+ .button:hover{
+     width:20px;
+     height:18px;
+     /* background-color:#ff3232 ; */
+     padding:12px;
+     border-radius:5px;
+     font-weight:bold;
+     color:white;
+     cursor: pointer
+}
+
+ /* .button:before{
+     content:"";
+     position:absolute;
+     width:0px;
+     height:0px;
+     border: 10px solid;
+     border-color: white transparent transparent transparent;
+     right:6px;
+     top:18px;
+} */
+
+#list{
+     margin: 5px;
+     font-family: 'Fira Code';
+     
+}
+
+#list:hover{
+     margin: 5px;
+     font-family: 'Fira Code';
+     background-color: rgb(155, 155, 155)
+     
+}

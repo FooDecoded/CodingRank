@@ -1,0 +1,174 @@
+
+.session-background {
+  position: absolute;
+  /* display: flex;
+  flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #333333;
+  padding: 60px 0 0 0;
+  height: 600px;
+  font-family: "Fira Code";
+}
+
+
+.session-form-container {
+  position: absolute;
+  margin-bottom: 0;
+  border: 0;
+  right: 600px;
+  top: 20%;
+  /* display: inline-block; */
+  text-align: center;
+  /* padding-right: 50px; */
+  /* background-color: red; */
+}
+
+.session-form-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Fira Code';
+  padding: 30px;
+  width: 480px;
+  box-shadow: 0 6px 16px 0 rgba(0,0,0,.2);
+  
+  padding: 25px 25px 30px 25px;
+  padding-bottom: 50px;
+  color: black;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-top: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.session-input-field {
+    /* position: relative; */
+    height: 50px;
+    /* margin: 0; */
+    padding: 0 20px;
+    /* vertical-align: middle; */
+    /* background: #fff; */
+    /* border: 3px solid #fff; */
+    font-family: 'Fira Code';
+    font-size: 16px;
+    line-height: 50px;
+    color: white;
+    /* align-self: left; */
+    margin-left: 20px;
+    width: 80%;
+    /* -moz-border-radius: 4px;
+    -webkit-border-radius:  4px; */
+    /* border-radius: 4px; */
+    box-shadow: none; 
+    border: solid 2px transparent;
+    /* border-bottom: solid 2px rgba(255, 255, 255, 1);; */
+    background: transparent;
+
+    
+}
+
+.session-input-field {
+  transition: border .3s ease-in-out;
+}
+
+.session-input-field:focus{
+outline: none;
+/* border-bottom: solid white 1px; */
+border-bottom: solid 2px rgb(44, 153, 44);
+}
+
+.session-submit-button {
+  background-color: black;
+  box-shadow: 0 4px 15px 0 redrgba(27,169,76,.5);
+  border-radius: 7px;
+  color: lightgray;
+  font-size: 15px;
+  font-family: 'Fira Code';
+  height: 50px;
+  text-align: center;
+  width: 120px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  margin-left: 330px;
+
+
+}
+
+.session-submit-button:hover {
+  background-color: black;
+  color: white;
+  /* border-color: white; */
+  
+}
+
+a {
+  text-decoration: none;
+}
+.session-submit-button:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 12px 0 redrgba(27,169,76,.5); 
+}
+
+.lang-choice-button {
+  background: #BDBDBD;
+  box-shadow: 0 4px 15px 0 redrgba(27,169,76,.5);
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Fira Code';
+  height: 50px;
+  text-align: center;
+}
+
+.lang-choice-button:hover{
+  background-color: black;
+  border-color: white;
+}
+
+.lang-choice-button:focus {
+  background-color: red;
+}
+
+
+#signup-message {
+ font-family: "GalaxieCopernicus-Book";
+ color: white;
+ font-weight: 200;
+ font-size: 20px;
+ font-family: "Fira Code";
+}
+
+
+.session-errors-container li {
+  color: red;
+  text-decoration: none;
+  list-style: none;
+}
+
+#go-to-login{
+  color: white;
+  position: relative;
+  top: 25px;
+  right: 100px
+}
+
+#go-to-login:hover{
+  color: rgb(44, 153, 44);
+  position: relative;
+  top: 25px;
+  right: 100px;
+  cursor: pointer;
+}
+
+.login-form-hidden{
+  display: none
+}
