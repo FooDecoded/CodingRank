@@ -34,7 +34,7 @@
     "react-codemirror2": "^6.0.0",
     "react-rotating-text": "^1.4.1",
     "react-typing-animation": "^1.6.2",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "validator": "^11.1.0"
   },
   "devDependencies": {
